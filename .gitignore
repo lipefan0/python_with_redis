@@ -1,0 +1,8 @@
+.venv
+storage.db
+storage.sql
+.idea
+.vscode
+**/__pycache__
+**/*.pyc
+.pytest_cache
