@@ -1,6 +1,6 @@
 .venv
 storage.db
-storage.sql
+storage.db
 .idea
 .vscode
 **/__pycache__
