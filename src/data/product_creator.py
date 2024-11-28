@@ -31,7 +31,6 @@ class ProductCreator:
 
         self.__redis_repo.insert_ex(product_key, value, 60)
 
-    @staticmethod
     def __format_response(self) -> HttpResponse:
         return HttpResponse(
             status_code=201,

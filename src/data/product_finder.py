@@ -39,7 +39,6 @@ class ProductFinder:
         value = f"{product[2]},{product[3]}"
         self.__redis_repo.insert_ex(product_name, value, 60)
 
-    @staticmethod
     def __format_response(self, product: tuple) -> HttpResponse:
         return HttpResponse(
             status_code=200,
